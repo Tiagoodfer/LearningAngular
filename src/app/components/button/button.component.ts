@@ -10,4 +10,15 @@ import { CommonModule } from '@angular/common';
 })
 export class ButtonComponent {
 
+  buttonText: string = "ACCESS";
+  buttonTexts: string[] = ["vender", "comprar"];
+
+  buttonObject = {
+    label:"adicionar ao carrinho",
+  };
+
+  getAlert() {
+    alert("Ola")
+  }
+
 }
